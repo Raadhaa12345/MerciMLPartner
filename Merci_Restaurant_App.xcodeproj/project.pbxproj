@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45121FA52182DC1400FDEC59 /* Reset_PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45121FA42182DC1400FDEC59 /* Reset_PasswordVC.swift */; };
+		45121FA72182DC3300FDEC59 /* Change_EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45121FA62182DC3300FDEC59 /* Change_EmailVC.swift */; };
+		45121FA92182E07700FDEC59 /* AMBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45121FA82182E07700FDEC59 /* AMBarChartView.swift */; };
+		4521A1C121818F6A006184C3 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521A1C021818F6A006184C3 /* FloatRatingView.swift */; };
+		4521A1C32181B9EC006184C3 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521A1C22181B9EC006184C3 /* ReviewsVC.swift */; };
+		4521A1C52181CE22006184C3 /* Select_OfferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521A1C42181CE22006184C3 /* Select_OfferVC.swift */; };
+		4521A1C72181D3D1006184C3 /* Apply_FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521A1C62181D3D1006184C3 /* Apply_FilterVC.swift */; };
+		4521A1C92181FCF9006184C3 /* Redemption_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521A1C82181FCF9006184C3 /* Redemption_VC.swift */; };
+		459585CD217DA11B008C3FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585CC217DA11B008C3FF1 /* AppDelegate.swift */; };
+		459585CF217DA11B008C3FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585CE217DA11B008C3FF1 /* ViewController.swift */; };
+		459585D2217DA11B008C3FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459585D0217DA11B008C3FF1 /* Main.storyboard */; };
+		459585D4217DA11D008C3FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459585D3217DA11D008C3FF1 /* Assets.xcassets */; };
+		459585D7217DA11D008C3FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459585D5217DA11D008C3FF1 /* LaunchScreen.storyboard */; };
+		459585E2217DA11D008C3FF1 /* Merci_Restaurant_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585E1217DA11D008C3FF1 /* Merci_Restaurant_AppTests.swift */; };
+		459585ED217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585EC217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.swift */; };
+		45958603217DA753008C3FF1 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585FE217DA752008C3FF1 /* APIConstant.swift */; };
+		45958604217DA753008C3FF1 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459585FF217DA753008C3FF1 /* ServiceManager.swift */; };
+		45958605217DA753008C3FF1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958600217DA753008C3FF1 /* Reachability.swift */; };
+		45958609217DA8F5008C3FF1 /* Summary_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958608217DA8F5008C3FF1 /* Summary_VC.swift */; };
+		4595860B217DA9A7008C3FF1 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595860A217DA9A7008C3FF1 /* SidemenuViewController.swift */; };
+		4595860F217DAAFF008C3FF1 /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595860E217DAAFF008C3FF1 /* CommonUtilities.swift */; };
+		45958611217DAEF7008C3FF1 /* InitalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958610217DAEF7008C3FF1 /* InitalVC.swift */; };
+		45958613217DB0D9008C3FF1 /* design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958612217DB0D9008C3FF1 /* design.swift */; };
+		45958615217DB127008C3FF1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958614217DB127008C3FF1 /* LoginVC.swift */; };
+		4595861E217DB3A4008C3FF1 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4595861C217DB3A4008C3FF1 /* Montserrat-Regular.otf */; };
+		4595861F217DB3A4008C3FF1 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4595861D217DB3A4008C3FF1 /* Montserrat-Light.otf */; };
+		45958621217DB75C008C3FF1 /* SelectOutlet_Vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45958620217DB75C008C3FF1 /* SelectOutlet_Vc.swift */; };
+		4B759606719D03FF251DA6DE /* Pods_Merci_Restaurant_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CC4A8121F1A11487999E6 /* Pods_Merci_Restaurant_App.framework */; };
+		80B3C04B2A4419520034FF2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80B3C04D2A4419520034FF2E /* Localizable.strings */; };
+		80C4A4572A3C66FE006EF5DC /* RKLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4A4562A3C66FE006EF5DC /* RKLocalization.swift */; };
+		9EA91F112AA7673F000B078C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA91F102AA7673F000B078C /* SWRevealViewController.m */; };
+		9ED8136E2A939B6F00253D15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8136D2A939B6F00253D15 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459585DE217DA11D008C3FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459585C1217DA11B008C3FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459585C8217DA11B008C3FF1;
+			remoteInfo = Merci_Restaurant_App;
+		};
+		459585E9217DA11D008C3FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459585C1217DA11B008C3FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459585C8217DA11B008C3FF1;
+			remoteInfo = Merci_Restaurant_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		235CC4A8121F1A11487999E6 /* Pods_Merci_Restaurant_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merci_Restaurant_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3168DC3518C10F7E43A5A5 /* Pods-Merci_Restaurant_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merci_Restaurant_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Merci_Restaurant_App/Pods-Merci_Restaurant_App.debug.xcconfig"; sourceTree = "<group>"; };
+		45121FA42182DC1400FDEC59 /* Reset_PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset_PasswordVC.swift; sourceTree = "<group>"; };
+		45121FA62182DC3300FDEC59 /* Change_EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_EmailVC.swift; sourceTree = "<group>"; };
+		45121FA82182E07700FDEC59 /* AMBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMBarChartView.swift; sourceTree = "<group>"; };
+		4521A1C021818F6A006184C3 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		4521A1C22181B9EC006184C3 /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		4521A1C42181CE22006184C3 /* Select_OfferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_OfferVC.swift; sourceTree = "<group>"; };
+		4521A1C62181D3D1006184C3 /* Apply_FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_FilterVC.swift; sourceTree = "<group>"; };
+		4521A1C82181FCF9006184C3 /* Redemption_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redemption_VC.swift; sourceTree = "<group>"; };
+		459585C9217DA11B008C3FF1 /* ML Partners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML Partners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459585CC217DA11B008C3FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		459585CE217DA11B008C3FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		459585D1217DA11B008C3FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		459585D3217DA11D008C3FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		459585D6217DA11D008C3FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		459585D8217DA11D008C3FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459585DD217DA11D008C3FF1 /* Merci_Restaurant_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merci_Restaurant_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459585E1217DA11D008C3FF1 /* Merci_Restaurant_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merci_Restaurant_AppTests.swift; sourceTree = "<group>"; };
+		459585E3217DA11D008C3FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459585E8217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merci_Restaurant_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459585EC217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merci_Restaurant_AppUITests.swift; sourceTree = "<group>"; };
+		459585EE217DA11D008C3FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459585FC217DA751008C3FF1 /* Merci_Restaurant_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Merci_Restaurant_App-Bridging-Header.h"; sourceTree = "<group>"; };
+		459585FD217DA752008C3FF1 /* BrandNew-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BrandNew-Bridging-Header.h"; sourceTree = "<group>"; };
+		459585FE217DA752008C3FF1 /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		459585FF217DA753008C3FF1 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		45958600217DA753008C3FF1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		45958608217DA8F5008C3FF1 /* Summary_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary_VC.swift; sourceTree = "<group>"; };
+		4595860A217DA9A7008C3FF1 /* SidemenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		4595860E217DAAFF008C3FF1 /* CommonUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtilities.swift; sourceTree = "<group>"; };
+		45958610217DAEF7008C3FF1 /* InitalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitalVC.swift; sourceTree = "<group>"; };
+		45958612217DB0D9008C3FF1 /* design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = design.swift; sourceTree = "<group>"; };
+		45958614217DB127008C3FF1 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4595861C217DB3A4008C3FF1 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		4595861D217DB3A4008C3FF1 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		45958620217DB75C008C3FF1 /* SelectOutlet_Vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOutlet_Vc.swift; sourceTree = "<group>"; };
+		76DD1D93A93B7B69248CD0F2 /* Pods-Merci_Restaurant_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merci_Restaurant_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Merci_Restaurant_App/Pods-Merci_Restaurant_App.release.xcconfig"; sourceTree = "<group>"; };
+		803967632A4179F000496568 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80B3C04C2A4419520034FF2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80B3C04E2A4419570034FF2E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80C4A4562A3C66FE006EF5DC /* RKLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLocalization.swift; sourceTree = "<group>"; };
+		80C4A45D2A3C8D2E006EF5DC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		80C4A45E2A3C8D2F006EF5DC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80C4A4632A3C8E65006EF5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9EA91F0F2AA76731000B078C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9EA91F102AA7673F000B078C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9ED8136D2A939B6F00253D15 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459585C6217DA11B008C3FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B759606719D03FF251DA6DE /* Pods_Merci_Restaurant_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585DA217DA11D008C3FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585E5217DA11D008C3FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		459585C0217DA11B008C3FF1 = {
+			isa = PBXGroup;
+			children = (
+				459585CB217DA11B008C3FF1 /* Merci_Restaurant_App */,
+				459585E0217DA11D008C3FF1 /* Merci_Restaurant_AppTests */,
+				459585EB217DA11D008C3FF1 /* Merci_Restaurant_AppUITests */,
+				459585CA217DA11B008C3FF1 /* Products */,
+				6967EC2D15D74BE2127EE208 /* Pods */,
+				AEDFF6B0D1A7C560C6431407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		459585CA217DA11B008C3FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				459585C9217DA11B008C3FF1 /* ML Partners.app */,
+				459585DD217DA11D008C3FF1 /* Merci_Restaurant_AppTests.xctest */,
+				459585E8217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		459585CB217DA11B008C3FF1 /* Merci_Restaurant_App */ = {
+			isa = PBXGroup;
+			children = (
+				80B3C0482A4419270034FF2E /* Localization */,
+				459585FD217DA752008C3FF1 /* BrandNew-Bridging-Header.h */,
+				45958617217DB334008C3FF1 /* Font */,
+				45958607217DA77A008C3FF1 /* New Group */,
+				459585CC217DA11B008C3FF1 /* AppDelegate.swift */,
+				80C4A4562A3C66FE006EF5DC /* RKLocalization.swift */,
+				459585CE217DA11B008C3FF1 /* ViewController.swift */,
+				45958612217DB0D9008C3FF1 /* design.swift */,
+				45958608217DA8F5008C3FF1 /* Summary_VC.swift */,
+				4521A1C021818F6A006184C3 /* FloatRatingView.swift */,
+				4595860E217DAAFF008C3FF1 /* CommonUtilities.swift */,
+				45121FA42182DC1400FDEC59 /* Reset_PasswordVC.swift */,
+				45121FA82182E07700FDEC59 /* AMBarChartView.swift */,
+				45121FA62182DC3300FDEC59 /* Change_EmailVC.swift */,
+				9ED8136D2A939B6F00253D15 /* Constants.swift */,
+				45958614217DB127008C3FF1 /* LoginVC.swift */,
+				4521A1C62181D3D1006184C3 /* Apply_FilterVC.swift */,
+				45958610217DAEF7008C3FF1 /* InitalVC.swift */,
+				4521A1C82181FCF9006184C3 /* Redemption_VC.swift */,
+				4521A1C22181B9EC006184C3 /* ReviewsVC.swift */,
+				45958620217DB75C008C3FF1 /* SelectOutlet_Vc.swift */,
+				4521A1C42181CE22006184C3 /* Select_OfferVC.swift */,
+				4595860A217DA9A7008C3FF1 /* SidemenuViewController.swift */,
+				459585D0217DA11B008C3FF1 /* Main.storyboard */,
+				459585D3217DA11D008C3FF1 /* Assets.xcassets */,
+				459585D5217DA11D008C3FF1 /* LaunchScreen.storyboard */,
+				459585D8217DA11D008C3FF1 /* Info.plist */,
+				459585FC217DA751008C3FF1 /* Merci_Restaurant_App-Bridging-Header.h */,
+			);
+			path = Merci_Restaurant_App;
+			sourceTree = "<group>";
+		};
+		459585E0217DA11D008C3FF1 /* Merci_Restaurant_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				459585E1217DA11D008C3FF1 /* Merci_Restaurant_AppTests.swift */,
+				459585E3217DA11D008C3FF1 /* Info.plist */,
+			);
+			path = Merci_Restaurant_AppTests;
+			sourceTree = "<group>";
+		};
+		459585EB217DA11D008C3FF1 /* Merci_Restaurant_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				459585EC217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.swift */,
+				459585EE217DA11D008C3FF1 /* Info.plist */,
+			);
+			path = Merci_Restaurant_AppUITests;
+			sourceTree = "<group>";
+		};
+		45958607217DA77A008C3FF1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				459585FE217DA752008C3FF1 /* APIConstant.swift */,
+				45958600217DA753008C3FF1 /* Reachability.swift */,
+				459585FF217DA753008C3FF1 /* ServiceManager.swift */,
+				9EA91F0F2AA76731000B078C /* SWRevealViewController.h */,
+				9EA91F102AA7673F000B078C /* SWRevealViewController.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		45958617217DB334008C3FF1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4595861D217DB3A4008C3FF1 /* Montserrat-Light.otf */,
+				4595861C217DB3A4008C3FF1 /* Montserrat-Regular.otf */,
+			);
+			name = Font;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		6967EC2D15D74BE2127EE208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3168DC3518C10F7E43A5A5 /* Pods-Merci_Restaurant_App.debug.xcconfig */,
+				76DD1D93A93B7B69248CD0F2 /* Pods-Merci_Restaurant_App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80B3C0482A4419270034FF2E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				80B3C04D2A4419520034FF2E /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		AEDFF6B0D1A7C560C6431407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235CC4A8121F1A11487999E6 /* Pods_Merci_Restaurant_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459585C8217DA11B008C3FF1 /* Merci_Restaurant_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459585F1217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_App" */;
+			buildPhases = (
+				3E48602A313FA08687CD0CFB /* [CP] Check Pods Manifest.lock */,
+				459585C5217DA11B008C3FF1 /* Sources */,
+				459585C6217DA11B008C3FF1 /* Frameworks */,
+				459585C7217DA11B008C3FF1 /* Resources */,
+				391CA8433067F496A2F8C053 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Merci_Restaurant_App;
+			productName = Merci_Restaurant_App;
+			productReference = 459585C9217DA11B008C3FF1 /* ML Partners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		459585DC217DA11D008C3FF1 /* Merci_Restaurant_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459585F4217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_AppTests" */;
+			buildPhases = (
+				459585D9217DA11D008C3FF1 /* Sources */,
+				459585DA217DA11D008C3FF1 /* Frameworks */,
+				459585DB217DA11D008C3FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459585DF217DA11D008C3FF1 /* PBXTargetDependency */,
+			);
+			name = Merci_Restaurant_AppTests;
+			productName = Merci_Restaurant_AppTests;
+			productReference = 459585DD217DA11D008C3FF1 /* Merci_Restaurant_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		459585E7217DA11D008C3FF1 /* Merci_Restaurant_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459585F7217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_AppUITests" */;
+			buildPhases = (
+				459585E4217DA11D008C3FF1 /* Sources */,
+				459585E5217DA11D008C3FF1 /* Frameworks */,
+				459585E6217DA11D008C3FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459585EA217DA11D008C3FF1 /* PBXTargetDependency */,
+			);
+			name = Merci_Restaurant_AppUITests;
+			productName = Merci_Restaurant_AppUITests;
+			productReference = 459585E8217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459585C1217DA11B008C3FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RipenApp;
+				TargetAttributes = {
+					459585C8217DA11B008C3FF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					459585DC217DA11D008C3FF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 459585C8217DA11B008C3FF1;
+					};
+					459585E7217DA11D008C3FF1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 459585C8217DA11B008C3FF1;
+					};
+				};
+			};
+			buildConfigurationList = 459585C4217DA11B008C3FF1 /* Build configuration list for PBXProject "Merci_Restaurant_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 459585C0217DA11B008C3FF1;
+			productRefGroup = 459585CA217DA11B008C3FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459585C8217DA11B008C3FF1 /* Merci_Restaurant_App */,
+				459585DC217DA11D008C3FF1 /* Merci_Restaurant_AppTests */,
+				459585E7217DA11D008C3FF1 /* Merci_Restaurant_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459585C7217DA11B008C3FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595861F217DB3A4008C3FF1 /* Montserrat-Light.otf in Resources */,
+				80B3C04B2A4419520034FF2E /* Localizable.strings in Resources */,
+				459585D7217DA11D008C3FF1 /* LaunchScreen.storyboard in Resources */,
+				459585D4217DA11D008C3FF1 /* Assets.xcassets in Resources */,
+				459585D2217DA11B008C3FF1 /* Main.storyboard in Resources */,
+				4595861E217DB3A4008C3FF1 /* Montserrat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585DB217DA11D008C3FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585E6217DA11D008C3FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391CA8433067F496A2F8C053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Merci_Restaurant_App/Pods-Merci_Restaurant_App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LinearProgressBar/LinearProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinearProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merci_Restaurant_App/Pods-Merci_Restaurant_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E48602A313FA08687CD0CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Merci_Restaurant_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		459585C5217DA11B008C3FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595860F217DAAFF008C3FF1 /* CommonUtilities.swift in Sources */,
+				45121FA92182E07700FDEC59 /* AMBarChartView.swift in Sources */,
+				45958611217DAEF7008C3FF1 /* InitalVC.swift in Sources */,
+				9EA91F112AA7673F000B078C /* SWRevealViewController.m in Sources */,
+				4521A1C121818F6A006184C3 /* FloatRatingView.swift in Sources */,
+				4521A1C72181D3D1006184C3 /* Apply_FilterVC.swift in Sources */,
+				45958615217DB127008C3FF1 /* LoginVC.swift in Sources */,
+				9ED8136E2A939B6F00253D15 /* Constants.swift in Sources */,
+				45121FA72182DC3300FDEC59 /* Change_EmailVC.swift in Sources */,
+				45121FA52182DC1400FDEC59 /* Reset_PasswordVC.swift in Sources */,
+				4595860B217DA9A7008C3FF1 /* SidemenuViewController.swift in Sources */,
+				459585CF217DA11B008C3FF1 /* ViewController.swift in Sources */,
+				459585CD217DA11B008C3FF1 /* AppDelegate.swift in Sources */,
+				45958621217DB75C008C3FF1 /* SelectOutlet_Vc.swift in Sources */,
+				45958603217DA753008C3FF1 /* APIConstant.swift in Sources */,
+				80C4A4572A3C66FE006EF5DC /* RKLocalization.swift in Sources */,
+				4521A1C52181CE22006184C3 /* Select_OfferVC.swift in Sources */,
+				45958605217DA753008C3FF1 /* Reachability.swift in Sources */,
+				45958604217DA753008C3FF1 /* ServiceManager.swift in Sources */,
+				4521A1C92181FCF9006184C3 /* Redemption_VC.swift in Sources */,
+				4521A1C32181B9EC006184C3 /* ReviewsVC.swift in Sources */,
+				45958613217DB0D9008C3FF1 /* design.swift in Sources */,
+				45958609217DA8F5008C3FF1 /* Summary_VC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585D9217DA11D008C3FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459585E2217DA11D008C3FF1 /* Merci_Restaurant_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459585E4217DA11D008C3FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459585ED217DA11D008C3FF1 /* Merci_Restaurant_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		459585DF217DA11D008C3FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459585C8217DA11B008C3FF1 /* Merci_Restaurant_App */;
+			targetProxy = 459585DE217DA11D008C3FF1 /* PBXContainerItemProxy */;
+		};
+		459585EA217DA11D008C3FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459585C8217DA11B008C3FF1 /* Merci_Restaurant_App */;
+			targetProxy = 459585E9217DA11D008C3FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		459585D0217DA11B008C3FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459585D1217DA11B008C3FF1 /* Base */,
+				80C4A45D2A3C8D2E006EF5DC /* fr */,
+				80C4A4632A3C8E65006EF5DC /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		459585D5217DA11D008C3FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459585D6217DA11D008C3FF1 /* Base */,
+				80C4A45E2A3C8D2F006EF5DC /* fr */,
+				803967632A4179F000496568 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80B3C04D2A4419520034FF2E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B3C04C2A4419520034FF2E /* en */,
+				80B3C04E2A4419570034FF2E /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		459585EF217DA11D008C3FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		459585F0217DA11D008C3FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		459585F2217DA11D008C3FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3168DC3518C10F7E43A5A5 /* Pods-Merci_Restaurant_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBTAYP633;
+				INFOPLIST_FILE = Merci_Restaurant_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlpartners.ripenapps;
+				PRODUCT_NAME = "ML Partners";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Merci_Restaurant_App/BrandNew-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		459585F3217DA11D008C3FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DD1D93A93B7B69248CD0F2 /* Pods-Merci_Restaurant_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBTAYP633;
+				INFOPLIST_FILE = Merci_Restaurant_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlpartners.ripenapps;
+				PRODUCT_NAME = "ML Partners";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Merci_Restaurant_App/BrandNew-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		459585F5217DA11D008C3FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Merci_Restaurant_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ripenapps.Merci-Restaurant-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merci_Restaurant_App.app/Merci_Restaurant_App";
+			};
+			name = Debug;
+		};
+		459585F6217DA11D008C3FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Merci_Restaurant_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ripenapps.Merci-Restaurant-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merci_Restaurant_App.app/Merci_Restaurant_App";
+			};
+			name = Release;
+		};
+		459585F8217DA11D008C3FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Merci_Restaurant_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ripenapps.Merci-Restaurant-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merci_Restaurant_App;
+			};
+			name = Debug;
+		};
+		459585F9217DA11D008C3FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Merci_Restaurant_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ripenapps.Merci-Restaurant-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merci_Restaurant_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459585C4217DA11B008C3FF1 /* Build configuration list for PBXProject "Merci_Restaurant_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459585EF217DA11D008C3FF1 /* Debug */,
+				459585F0217DA11D008C3FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459585F1217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459585F2217DA11D008C3FF1 /* Debug */,
+				459585F3217DA11D008C3FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459585F4217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459585F5217DA11D008C3FF1 /* Debug */,
+				459585F6217DA11D008C3FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459585F7217DA11D008C3FF1 /* Build configuration list for PBXNativeTarget "Merci_Restaurant_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459585F8217DA11D008C3FF1 /* Debug */,
+				459585F9217DA11D008C3FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 459585C1217DA11B008C3FF1 /* Project object */;
+}

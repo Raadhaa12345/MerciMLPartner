@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  Merci_Restaurant_App
+
+  Created by Arpit_Jain_Mac on 22/06/23.
+  Copyright © 2023 RipenApp. All rights reserved.
+*/
+
+
+"Chage_MobNum" = "Voulez-vous changer votre  numéro de mobile ?";
+
+"kAlertNoNetworkMessage" = "Une connexion réseau est nécessaire. Veuillez  vérifier vos paramètres réseau et réessayer.";
+
+"A network connection is required. Please verify your network settings & try again." = "Une connexion réseau est nécessaire. Veuillez  vérifier vos paramètres réseau et réessayer.";
+
+"Do You Want to Change Your Mobile No. ?" = "Voulez-vous changer votre  numéro de mobile ?";
+
+"Merci Partners" = "Partenaires Merci";
+
+"Network Problem" = "Problème de réseau";
+
+"Ok" = "Ok";
+
+"Invalid credentials" = "Identifiants invalides";
+
+"Please enter old password." = "Veuillez entrer l'ancien mot de  passe.";
+
+"Old password should be minimum 6 characters" = "L'ancien mot de passe  doit comporter au moins 6 caractères";
+
+"Please enter new password." = "Veuillez entrer un nouveau mot de  passe.";
+
+"Confirm password should be minimum 6 characters." = "Le mot de passe  de confirmation doit comporter au moins 6 caractères.";
+
+"New password should be minimum 6 characters." = "Le nouveau mot de  passe doit comporter au moins 6 caractères.";
+
+"Please enter confirm password." = "Veuillez entrer le mot de passe de  confirmation.";
+
+"New password and Confirm password does not match" = "Le nouveau mot  de passe et le mot de passe de confirmation ne correspondent pas";
+
+"Password updated successfully" = "Mot de passe mis à jour avec  succès";
+
+"Your old password is incorrect" = "Votre ancien mot de passe est  incorrect";
+
+"Please Enter Email" = "Veuillez entrer l'email";
+
+"Please Enter a Valid Email" = "Veuillez entrer un email valide";
+
+"Registered email successfully updated." = "Email enregistré mis à  jour avec succès.";
+
+"Your email is incorrect." = "Votre email est incorrect.";
+
+"Please Enter Password" = "Veuillez entrer le mot de passe";
+
+"Please enter valid credentials" = "Veuillez entrer des identifiants  valides";
+
+"Are you sure you want to apply the filters?" = "Êtes-vous sûr de  vouloir appliquer les filtres ?";
+
+"Yes" = "Oui";
+
+"End date must be before Start date." = "La date de fin doit être  antérieure à la date de début.";
+
+"Are you sure you want to clear the filters ?" = "Êtes-vous sûr de  vouloir effacer les filtres ?";
+
+"There is no Offers." = "Il n'y a pas d'offres.";
+
+"Are you sure you want to sign out?" = "Êtes-vous sûr de vouloir vous  déconnecter ?";
+
+"Under Development" = "En développement";
+
+"Summary" = "Résumé";
+
+"Reviews" = "Commentaires";
+
+"Redemptions" = "Rachats";
+
+"Reset Password" = "réinitialiser le mot de passe";
+
+"Change Email" = "Changer l'e-mail";
+
+"Sign Out" = "Se déconnecter";
+
+"A link will be sent to your registered email address to reset your password" = "Un lien sera envoyé à votre adresse email enregistrée pour réinitialiser votre mot de passe";
+
+"Confidential" = "Confidentiel";
+
+"Your current email is" = "Votre email actuel est";
+
+"Do you want to change it?" = "Voulez-vous le changer?";
+
+"20 Ratings" = "20 Notes";
+
+"Select Outlet" = "Sélectionner un point de vente";
+
+"Select Offer" = "Sélectionner une offre";
+
+"From" = "Depuis";
+
+"To" = "À";
+
+"No" = "Non";
+
+"Merci Lebanon Partners" = "Merci Liban Partenaires";
+
+"PASSWORD" = "MOT DE PASSE";
+
+"LOGIN" = "CONNEXION";
+
+"Reviews" = "Commentaires";
+
+"Staff" = "Personnel";
+
+"Price" = "Prix";
+
+"Ambience" = "Ambiance";
+
+"Quality of Offering" = "Qualité de l'offre";
+
+"Overall Rating" = "Évaluation globale";
+
+"Summary" = "Résumé";
+
+"Redemptions" = "Rachats";
+
+"Apply Filter" = "Appliquer le filtre";
+
+"Clear All" = "Tout effacer";
+
+"Select Outlet" = "Sélectionner le point de vente";
+
+"Select Offer" = "Sélectionner l'offre";
+
+"No Redemption Found" = "Aucun rachat trouvé";
+
+"OLD PASSWORD" = "ANCIEN MOT DE PASSE";
+
+"NEW PASSWORD" = "NOUVEAU MOT DE PASSE";
+
+"CONFIRM PASSWORD" = "CONFIRMER LE MOT DE PASSE";
+
+"Reset Password" = "Réinitialiser le mot de passe";
+
+"Save" = "Enregistrer";
+
+"Change Email" = "Changer l'email";
+
+"SEND" = "ENVOYER";
+
+"Enter Old Password" = "Entrez l'ancien mot de passe";
+
+"Enter New Password" = "Entrez un nouveau mot de passe";
+
+"Enter Confirm Password" = "Entrez Confirmer le mot de passe";

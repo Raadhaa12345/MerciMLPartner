@@ -1,0 +1,240 @@
+
+/* Class = "UITextField"; placeholder = "Enter Your Password"; ObjectID = "0RT-Al-Ygx"; */
+"0RT-Al-Ygx.placeholder" = "Enter Your Password";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "1YT-if-me0"; */
+"1YT-if-me0.text" = "Reset Password";
+
+/* Class = "UILabel"; text = "The Gesto bar"; ObjectID = "1Zy-ye-nwJ"; */
+"1Zy-ye-nwJ.text" = "The Gesto bar";
+
+/* Class = "UILabel"; text = "Confidential"; ObjectID = "1yz-EV-bQV"; */
+"1yz-EV-bQV.text" = "Confidential";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "3h6-9X-kHV"; */
+"3h6-9X-kHV.text" = "Price";
+
+/* Class = "UILabel"; text = "Confidential"; ObjectID = "4jS-I9-u5W"; */
+"4jS-I9-u5W.text" = "Confidential";
+
+/* Class = "UILabel"; text = "22/Jan/2018 to 25/Dec/2018"; ObjectID = "5F9-xc-ZqQ"; */
+"5F9-xc-ZqQ.text" = "22/Jan/2018 to 25/Dec/2018";
+
+/* Class = "UILabel"; text = "25 Aug 2018"; ObjectID = "5ID-OP-noM"; */
+"5ID-OP-noM.text" = "25 Aug 2018";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "7qx-EX-bY2"; */
+"7qx-EX-bY2.text" = "4/5";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "8A6-gH-78o"; */
+"8A6-gH-78o.text" = "4/5";
+
+/* Class = "UILabel"; text = "Overall Rating"; ObjectID = "8HX-vQ-TC5"; */
+"8HX-vQ-TC5.text" = "Overall Rating";
+
+/* Class = "UILabel"; text = "PASSWORD"; ObjectID = "8QV-rT-paM"; */
+"8QV-rT-paM.text" = "PASSWORD";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password ?"; ObjectID = "8VG-wX-c9s"; */
+"8VG-wX-c9s.normalTitle" = "Forgot Password ?";
+
+/* Class = "UILabel"; text = "Select Offer"; ObjectID = "8mK-hh-fRk"; */
+"8mK-hh-fRk.text" = "Select Offer";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "D9E-Vq-I15"; */
+"D9E-Vq-I15.text" = "Reviews";
+
+/* Class = "UIButton"; normalTitle = "B"; ObjectID = "EPK-a3-v29"; */
+"EPK-a3-v29.normalTitle" = "B";
+
+/* Class = "UILabel"; text = "No Data Found"; ObjectID = "Gz7-LR-B3x"; */
+"Gz7-LR-B3x.text" = "No Data Found";
+
+/* Class = "UILabel"; text = "123456789"; ObjectID = "HbR-EV-bJu"; */
+"HbR-EV-bJu.text" = "123456789";
+
+/* Class = "UIButton"; normalTitle = "APPLY"; ObjectID = "HnU-cC-ZbO"; */
+"HnU-cC-ZbO.normalTitle" = "APPLY";
+
+/* Class = "UILabel"; text = "Confidential"; ObjectID = "Ipb-C5-4pM"; */
+"Ipb-C5-4pM.text" = "Confidential";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "Ixn-hj-vmw"; */
+"Ixn-hj-vmw.normalTitle" = "SEND";
+
+/* Class = "UILabel"; text = "1 FOR 1"; ObjectID = "JBx-01-LMC"; */
+"JBx-01-LMC.text" = "1 FOR 1";
+
+/* Class = "UILabel"; text = "Redemptions"; ObjectID = "JeG-wI-g4o"; */
+"JeG-wI-g4o.text" = "Redemptions";
+
+/* Class = "UILabel"; text = "No Review Found"; ObjectID = "NCG-ey-7sR"; */
+"NCG-ey-7sR.text" = "No Review Found";
+
+/* Class = "UILabel"; text = "Staff"; ObjectID = "O7U-od-5FD"; */
+"O7U-od-5FD.text" = "Staff";
+
+/* Class = "UILabel"; text = "Quality of Offering"; ObjectID = "Qnz-TX-RwT"; */
+"Qnz-TX-RwT.text" = "Quality of Offering";
+
+/* Class = "UILabel"; text = "NEW PASSWORD"; ObjectID = "RTa-UE-G8s"; */
+"RTa-UE-G8s.text" = "NEW PASSWORD";
+
+/* Class = "UILabel"; text = "Redemptions"; ObjectID = "S8f-qw-73A"; */
+"S8f-qw-73A.text" = "Redemptions";
+
+/* Class = "UILabel"; text = "Search"; ObjectID = "Tia-Mm-LeZ"; */
+"Tia-Mm-LeZ.text" = "Search";
+
+/* Class = "UILabel"; text = "Select Outlet"; ObjectID = "Vi4-kO-zxa"; */
+"Vi4-kO-zxa.text" = "Select Outlet";
+
+/* Class = "UILabel"; text = "Summary"; ObjectID = "X5J-ny-ZhP"; */
+"X5J-ny-ZhP.text" = "Summary";
+
+/* Class = "UILabel"; text = "Confidential"; ObjectID = "Xfu-aN-goF"; */
+"Xfu-aN-goF.text" = "Confidential";
+
+/* Class = "UIButton"; normalTitle = "Clear All"; ObjectID = "Xqj-Qo-YTH"; */
+"Xqj-Qo-YTH.normalTitle" = "Clear All";
+
+/* Class = "UILabel"; text = "EMAIL"; ObjectID = "YCU-wz-QNJ"; */
+"YCU-wz-QNJ.text" = "EMAIL";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "YTo-Wk-505"; */
+"YTo-Wk-505.text" = "From";
+
+/* Class = "UILabel"; text = "Apply Filter"; ObjectID = "Z0L-6S-Yyj"; */
+"Z0L-6S-Yyj.text" = "Apply Filter";
+
+/* Class = "UILabel"; text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to "; ObjectID = "ZSA-p1-rLk"; */
+"ZSA-p1-rLk.text" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to ";
+
+/* Class = "UITextField"; placeholder = "Enter Your Email"; ObjectID = "ZmP-fC-47G"; */
+"ZmP-fC-47G.placeholder" = "Enter Your Email";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "aRT-cb-RDr"; */
+"aRT-cb-RDr.text" = "4/5";
+
+/* Class = "UILabel"; text = "Main Couse"; ObjectID = "akM-Bb-HUJ"; */
+"akM-Bb-HUJ.text" = "Main Couse";
+
+/* Class = "UILabel"; text = "Staff"; ObjectID = "cZc-EN-QjL"; */
+"cZc-EN-QjL.text" = "Staff";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d8S-q4-N0N"; */
+"d8S-q4-N0N.text" = "Label";
+
+/* Class = "UILabel"; text = "Ambience"; ObjectID = "dID-zV-2iM"; */
+"dID-zV-2iM.text" = "Ambience";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "dUA-dg-DXb"; */
+"dUA-dg-DXb.text" = "Price";
+
+/* Class = "UILabel"; text = "CONFIRM PASSWORD"; ObjectID = "dXm-Xe-qHQ"; */
+"dXm-Xe-qHQ.text" = "CONFIRM PASSWORD";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "dpj-lR-0Ig"; */
+"dpj-lR-0Ig.text" = "4/5";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "e7f-lQ-PzT"; */
+"e7f-lQ-PzT.normalTitle" = "LOGIN";
+
+/* Class = "UILabel"; text = "Main Course"; ObjectID = "fq2-11-cyk"; */
+"fq2-11-cyk.text" = "Main Course";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "g6N-L0-XfB"; */
+"g6N-L0-XfB.text" = "4/5";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "gB7-S2-frv"; */
+"gB7-S2-frv.text" = "4/5";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "hPE-sQ-MYn"; */
+"hPE-sQ-MYn.text" = "4/5";
+
+/* Class = "UILabel"; text = "20 Ratings"; ObjectID = "i6W-tt-dZP"; */
+"i6W-tt-dZP.text" = "20 Ratings";
+
+/* Class = "UILabel"; text = "Plot No. - 126, 1st Floor, sector 62, Noida "; ObjectID = "iGO-Xi-CuQ"; */
+"iGO-Xi-CuQ.text" = "Plot No. - 126, 1st Floor, sector 62, Noida ";
+
+/* Class = "UILabel"; text = "The Gesto bar"; ObjectID = "jaq-Ya-GJN"; */
+"jaq-Ya-GJN.text" = "The Gesto bar";
+
+/* Class = "UILabel"; text = "Quality of Offering"; ObjectID = "jgd-6u-861"; */
+"jgd-6u-861.text" = "Quality of Offering";
+
+/* Class = "UITextField"; placeholder = "Enter Confirm Password"; ObjectID = "kWz-GT-AJV"; */
+"kWz-GT-AJV.placeholder" = "Enter Confirm Password";
+
+/* Class = "UILabel"; text = "Staff"; ObjectID = "l4U-EY-302"; */
+"l4U-EY-302.text" = "Staff";
+
+/* Class = "UILabel"; text = "550"; ObjectID = "liq-jU-WXN"; */
+"liq-jU-WXN.text" = "550";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "lz5-9f-sOM"; */
+"lz5-9f-sOM.text" = "4/5";
+
+/* Class = "UILabel"; text = "OLD PASSWORD"; ObjectID = "mpl-QX-GYM"; */
+"mpl-QX-GYM.text" = "OLD PASSWORD";
+
+/* Class = "UITextField"; placeholder = "Enter New Password"; ObjectID = "nen-Lo-tNh"; */
+"nen-Lo-tNh.placeholder" = "Enter New Password";
+
+/* Class = "UILabel"; text = "Overall Rating"; ObjectID = "oP5-ir-SoS"; */
+"oP5-ir-SoS.text" = "Overall Rating";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "oZm-Yv-2SV"; */
+"oZm-Yv-2SV.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "06:18 PM"; ObjectID = "pRn-dW-CYG"; */
+"pRn-dW-CYG.text" = "06:18 PM";
+
+/* Class = "UILabel"; text = "Ambience"; ObjectID = "pV1-md-hSw"; */
+"pV1-md-hSw.text" = "Ambience";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "qN1-K4-2XB"; */
+"qN1-K4-2XB.text" = "4/5";
+
+/* Class = "UITextField"; placeholder = "Enter Old Password"; ObjectID = "qj0-L7-bTa"; */
+"qj0-L7-bTa.placeholder" = "Enter Old Password";
+
+/* Class = "UILabel"; text = "Change Email "; ObjectID = "rAY-OP-MOp"; */
+"rAY-OP-MOp.text" = "Change Email ";
+
+/* Class = "UILabel"; text = "Redemption No :-"; ObjectID = "sIv-l4-HX7"; */
+"sIv-l4-HX7.text" = "Redemption No :-";
+
+/* Class = "UILabel"; text = "Merci Lebanon Partners"; ObjectID = "shR-Ad-AQA"; */
+"shR-Ad-AQA.text" = "Merci Lebanon Partners";
+
+/* Class = "UILabel"; text = "A link will be sent to your registered email address to reset your password"; ObjectID = "tZr-5S-tET"; */
+"tZr-5S-tET.text" = "A link will be sent to your registered email address to reset your password";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "v78-jp-JaH"; */
+"v78-jp-JaH.text" = "4/5";
+
+/* Class = "UILabel"; text = "Select Outlet"; ObjectID = "vGk-Mk-f3o"; */
+"vGk-Mk-f3o.text" = "Select Outlet";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vZm-RP-cBE"; */
+"vZm-RP-cBE.text" = "Label";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "vv3-b3-Z3Q"; */
+"vv3-b3-Z3Q.text" = "Reviews";
+
+/* Class = "UILabel"; text = "EMAIL"; ObjectID = "wIw-gF-5Gb"; */
+"wIw-gF-5Gb.text" = "EMAIL";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "xt5-LT-GA7"; */
+"xt5-LT-GA7.text" = "To";
+
+/* Class = "UILabel"; text = "4/5"; ObjectID = "xyu-fY-Krs"; */
+"xyu-fY-Krs.text" = "4/5";
+
+/* Class = "UILabel"; text = "No Redemption Found"; ObjectID = "yJ9-fu-1th"; */
+"yJ9-fu-1th.text" = "No Redemption Found";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ys6-eg-gfH"; */
+"ys6-eg-gfH.placeholder" = "Email";
